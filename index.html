@@ -1,0 +1,46 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orquestra AD SJC - Cadastro de Novos Integrantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Orquestra AD SJC - Cadastro de Novos Integrantes</h1>
+    </header>
+    <main>
+        <form id="registration-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="birth-date">Data de Nascimento:</label>
+            <input type="date" id="birth-date" name="birth-date" required><br><br>
+            <label for="address">Endereço:</label>
+            <input type="text" id="address" name="address" required><br><br>
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            <label for="instrument">Instrumento:</label>
+            <select id="instrument" name="instrument" required>
+                <option value="">Selecione um instrumento</option>
+                <option value="Violino">Violino</option>
+                <option value="Viola">Viola</option>
+                <option value="Cello">Cello</option>
+                <option value="Contrabaixo">Contrabaixo</option>
+                <option value="Flauta">Flauta</option>
+                <option value="Oboé">Oboé</option>
+                <option value="Clarinete">Clarinete</option>
+                <option value="Fagote">Fagote</option>
+                <option value="Trompa">Trompa</option>
+                <option value="Trompete">Trompete</option>
+                <option value="Tuba">Tuba</option>
+                <option value="Percussão">Percussão</option>
+                <option value="Outro">Outro</option>
+            </select><br><br>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
